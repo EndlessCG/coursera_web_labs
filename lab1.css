@@ -1,0 +1,73 @@
+#main_title{
+    position: relative;
+    text-align: center;
+    padding:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+body{
+    margin:0.5%;
+}
+ol .title{
+    position:relative;
+    box-sizing: border-box;
+    left:70.5%;
+    width:30%;
+    border:black solid 1px;
+    text-align:center;
+    margin:-1px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+ol .content{
+    margin:2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    margin:0px;
+    padding:0px;
+}
+#title1{
+    background-color: plum;
+}
+#title2{
+    background-color: maroon;
+}
+#title3{
+    background-color: sandybrown;
+}
+@media(min-width:992px){
+    ol .box{
+        float:left;
+        width:32%;
+        border:black solid 1px;
+        background-color: grey;
+        margin:0.5%;
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    ol .box{
+        float:left;
+        width:48.75%;
+        border:black solid 1px;
+        background-color: grey;
+        margin:0.5%;
+    }
+    #box3{
+        box-sizing: border-box;
+        width:99%;
+        margin:0.5%;
+    }
+    #title3{
+        left:85.25%;
+        width:15%;
+    }
+}
+@media(max-width:767px){
+    ol .box{
+        float:left;
+        width:99%;
+        border:black solid 1px;
+        background-color: grey;
+        margin:0.5%;
+    }
+}
