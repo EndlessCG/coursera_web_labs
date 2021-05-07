@@ -44,10 +44,10 @@ ol{
         margin:0.5%;
     }
 }
-@media(max-width:991px) and (min-width:768px){
+@media(max-width:992px) and (min-width:768px){
     ol .box{
         float:left;
-        width:48%;
+        width:48.5%;
         border:black solid 1px;
         background-color: grey;
         margin:0.5%;
@@ -62,7 +62,7 @@ ol{
         width:15%;
     }
 }
-@media(max-width:767px){
+@media(max-width:768px){
     ol .box{
         float:left;
         width:99%;
